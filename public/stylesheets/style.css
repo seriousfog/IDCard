@@ -10,6 +10,7 @@ input, select {
 }
 .info-row, .info-container {
   display:flex;
+  color: #714740;
 }
 .info-row{
   flex: 1;
@@ -17,6 +18,7 @@ input, select {
 .label {
   font-weight:bold;
   margin-right: 8px;
+  color: black;
 }
 .info-container{
   gap: 16px;
@@ -36,6 +38,7 @@ input, select {
 .title {
   display:flex;
   justify-content:center;
+  font: 16px "Lucida Grande", "Papyrus", sans-serif;
 }
 .address-text p{
   padding:0;
@@ -48,13 +51,19 @@ input, select {
   margin-bottom: 6px;
 }
 .card.premium{
-  border: 1px solid #d7ac57
+  border: 6px solid #d7ac57;
+  color: #d7ac57;
+  background-color: #967732;
 }
 .card.standard{
-  border: 1px solid #999
+  border: 6px solid #999;
+  color: #999;
+  background-color: #a69191;
 }
 .card.bronze{
-  border: 1px solid #714740
+  border: 6px solid #714740;
+  color: #714740;
+  background-color: #b26458;
 }
 a {
   color: #00B7FF;

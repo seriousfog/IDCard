@@ -19,6 +19,7 @@ router.post('/card', function (req, res){
     state: req.body.state,
     zip: req.body.zip,
     accountNumber: createAccountNumber(),
+    dateStart: new Date(req.body.dateStart),
 
     currentDate: new Date(),
     cardClass: getCardClass(req.body.type)
